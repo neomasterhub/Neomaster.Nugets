@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>disable</Nullable>
+		<Version>1.0.1</Version>
+		<Authors>Neomaster</Authors>
+		<Copyright>© Neomaster, 2023</Copyright>
+		<PackageIcon>logo.png</PackageIcon>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageProjectUrl>https://github.com/neomasterhub/Neomaster.Nugets/tree/master/Neomaster.Extensions.Exception</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/neomasterhub/Neomaster.Nugets/tree/master/Neomaster.Extensions.Exception</RepositoryUrl>
+		<Description>Retrieves all internal exceptions of the exception tree, including AggregateException.</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\logo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
