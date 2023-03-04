@@ -9,9 +9,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StyleCop", "StyleCop", "{A5D8DFC5-F811-4DEC-BA4A-A4938C094931}"
+	ProjectSection(SolutionItems) = preProject
+		StyleCop\StyleCop.json = StyleCop\StyleCop.json
+		StyleCop\StyleCop.props = StyleCop\StyleCop.props
+		StyleCop\StyleCop.ruleset = StyleCop\StyleCop.ruleset
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5D8DFC5-F811-4DEC-BA4A-A4938C094931} = {5451D031-0FBB-4B69-97D3-19B95488321D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CADC2F3B-0A3E-484E-A015-1A3E3F389E85}
