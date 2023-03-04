@@ -1,12 +1,12 @@
 <Project>
 
 	<PropertyGroup>
-		<CodeAnalysisRuleSet>$(SolutionDir)StyleCop.ruleset</CodeAnalysisRuleSet>
+		<CodeAnalysisRuleSet>$(SolutionDir)\StyleCop\StyleCop.ruleset</CodeAnalysisRuleSet>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="StyleCop.Analyzers" Version="1.1.118" PrivateAssets="all" />
-		<AdditionalFiles Include="$(SolutionDir)StyleCop.json" Link="StyleCop.json" />
+		<AdditionalFiles Include="$(SolutionDir)\StyleCop\StyleCop.json" Link="StyleCop.json" />
 	</ItemGroup>
 
 </Project>

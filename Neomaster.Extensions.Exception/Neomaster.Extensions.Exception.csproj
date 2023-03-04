@@ -32,4 +32,6 @@
 		</None>
 	</ItemGroup>
 
+	<Import Project="..\StyleCop\StyleCop.props"/>
+
 </Project>
