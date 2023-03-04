@@ -12,7 +12,7 @@ Retrieves all internal exceptions of the exception tree, including `AggregateExc
 ### Conventions
 * `e` - `Exception` instance
 * `ae` - `AggregateException` instance
-* `[e,ae]` - List
+* `[e,ae]` - list
 
 ### Examples
 #### Don't include `AggregateException` *(default)*
